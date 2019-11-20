@@ -3,7 +3,7 @@ function _calcUpgrades() {
   store.State.count -= store.State.pick.price;
   store.State.pick.quantity += 1;
   store.State.pick.multiplier *= 2;
-  store.State.pick.price *= 20;
+  store.State.pick.price *= 2;
 }
 class GameService {
   updateCount() {

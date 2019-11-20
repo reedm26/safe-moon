@@ -21,4 +21,4 @@ class Store {
 }
 const STORE = new Store();
 
-export default STORE;
+export default STO;

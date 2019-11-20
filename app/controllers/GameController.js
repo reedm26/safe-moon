@@ -21,4 +21,8 @@ export default class GameController {
     GameService.pickUpdate();
     _draw();
   }
+  graterUpgrades() {
+    GameService.graterUpdate();
+    _draw();
+  }
 }

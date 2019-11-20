@@ -6,6 +6,11 @@ let _state = {
     quantity: 0,
     multiplier: 1,
     price: 10
+  },
+  grater: {
+    quantity: 30,
+    multiplier: 3,
+    price: 50
   }
 };
 
